@@ -87,7 +87,7 @@
 		}
 		
 		//Grab the dataUri from the canvas
-		uri = canvas.toDataURL('image/png');
+		uri = canvas.toDataURL('image/jpeg', 1);
 		
 		//Put the data uri into the image
 		if (image.attr) { //If element has attr function (jQuery element)
